@@ -1,0 +1,159 @@
+.b1 {
+    background-image:url("https://pbs.twimg.com/media/CrCDKobUkAU2lmf.jpg:large");
+    background-attachment: fixed;
+    background-position: center center;
+    height:1000px;
+  }
+
+.b2 {
+  background-image:url("http://www.sector-xi.de/fileadmin/templates/images/grafik-und-webdesign.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  padding:100px;
+  height:1000px;
+}
+
+.ccc{
+  margin-top:200px;
+}
+
+.b2 h1 h2 {
+  margin-top: 200px;
+}
+
+.b3  {
+ background-image:url("https://s-media-cache-ak0.pinimg.com/originals/9e/e8/77/9ee87751205173a890839518882a23f6.jpg");
+ background-attachment: fixed;
+ padding:100px;
+}
+
+.b4 {
+  background-image:url("http://www.gilles-informatique.fr/img/slide/hebergement.jpg");
+  background-attachment: fixed;
+  padding:200px;
+}
+
+.b5 {
+  background-image:url("https://wallpaperscraft.com/image/web_shadow_glare_dark_49402_1920x1200.jpg");
+  background-attachment: fixed;
+  position: relative;
+  top: -20px;
+  padding:100px;
+
+
+}
+
+.lien{
+  padding-bottom: 60px;
+}
+
+
+img {
+  width: 300px;
+	height: 200px;
+  margin-left:50px;
+  margin-top:50px;
+  margin-bottom:100px;
+
+}
+
+.progress {
+margin-left : 350px;
+margin-right: 350px;
+}
+
+.paragraphe {
+  background-color:#2D314F;
+  padding:100px;
+  padding-left:100px;
+  padding-right:100px;
+  margin-left:350px;
+  margin-right:350px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:900px;
+
+}
+
+.download{
+  margin-top:50px;
+}
+
+.robert {
+  color:black;
+  margin-left:50px;
+}
+
+p{
+  color:white;
+}
+
+h3 {
+  color:white;
+  margin:200px;
+}
+
+.jerry {
+margin-left: 300px;
+}
+
+form>a{
+    text-align: center;
+    display: block;
+    margin: 1em auto;
+    padding: 1em 0em;
+    width: 90%;
+    color: #fff;
+    text-decoration: none;
+    background: #2ecc71;
+    box-shadow: 0px 8px #27ae60;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    font-size: 1.2em;
+}
+
+form>a:hover{
+    text-decoration: none;
+    background: #3498db;
+    box-shadow: 0px 8px #2980b9;
+    color: #fff;
+}
+
+
+.input-group {
+    margin-bottom: 0.5em;
+}
+
+/*.holder {
+    width: 80%;
+    margin: 10em auto;
+    background: rgba(52, 73, 94, 0.8);
+    padding: 4em 0em;
+    border-radius: 1em;
+}*/
+
+
+/*blog article*/
+
+.aboutlink{
+  color: #fff;
+  font-size: 0.8em;
+  display: block;
+  text-align: center;
+  transition: 0.8s all;
+}
+
+.aboutlink:hover{
+  color: #2ecc71;
+  text-decoration: none;
+/*}*/
+
+.pad{
+  padding-bottom: 200px;
+}
+
+.b4 h1{
+  padding-top: 150px;
+}
