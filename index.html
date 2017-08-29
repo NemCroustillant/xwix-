@@ -9,6 +9,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <script src="script.js"></script>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,16 +24,16 @@
            <a class="nav-link" href="#">HOME </a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">PROFESSIONAL </a>
+           <a class="nav-link" href="#professional">PROFESSIONAL </a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">EXPERIENCE </a>
+           <a class="nav-link" href="#experience">EXPERIENCE </a>
          </li>
          <li class="nav-item">
-           <a class="nav-link " href="#">PORTFOLIO </a>
+           <a class="nav-link " href="#portfolio">PORTFOLIO </a>
          </li>
          <li class="nav-iftem">
-           <a class="nav-link " href="#">CONTACT</a>
+           <a class="nav-link " href="#contact">CONTACT</a>
          </li>
        </ul>
      </div>
@@ -43,21 +45,24 @@
     <h2 class="display-5">UX/UI DESIGNER & <br/> WEB DEVELOPER</h2> </div>
       <div class="paragraphe">
         <p class="text-center text-white">I'M A PARAGRAPH. CLICK HERE TO ADD YOUR OWN TEXT AND EDIT ME. IT’S EASY. JUST CLICK “EDIT TEXT” OR DOUBLE CLICK ME TO ADD YOUR OWN CONTENT AND MAKE CHANGES TO THE FONT. FEEL FREE TO DRAG AND DROP ME ANYWHERE YOU LIKE ON YOUR PAGE. </p>
-        <input class="download" type="button" value="Download">
+        <button class="button">Download Now</button>
       </div>
     </div>
   </section>
     <div class="b2">
       <div class="ccc">
 
-      <h1 class="text-center text-white">01 PROFESSIONAL</h1>
-      <h2 class="text-center text-white">MY KNOWLEDGE LEVEL IN SOFTWARE</h2>
-      <p>WORDPRESS</p> <div class="progress">
+      <h2 id="professional" class="text-center text-white">01 PROFESSIONAL</h2>
+      <h3 class="text-center text-white">MY KNOWLEDGE LEVEL IN SOFTWARE</h3>
+</div>
+
+<div class="para">
+<p>WORDPRESS</p> <div class="progress">
         <div class="progress-bar" role="progressbar" aria-valuenow="70"
         aria-valuemin="0" aria-valuemax="100" style="width:75%">
         <span class="sr-only">70% Complete</span>
-      </div>  </div>  </div>
-
+      </div>  </div>
+<br/>
 
     <p>DRUPAL</p>
     <div class="progress">
@@ -66,6 +71,8 @@
       <span class="sr-only">70% Complete</span>
     </div>
   </div>
+
+  <br/>
   <p>WIX</p>
   <div class="progress">
     <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -73,6 +80,8 @@
     <span class="sr-only">70% Complete</span>
   </div>
 </div>
+
+<br/>
 <p>PHOTOSHOP</p>
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -80,6 +89,8 @@
   <span class="sr-only">70% Complete</span>
 </div>
 </div>
+
+<br/>
 <p>ILLUSTRATOR</p>
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -87,6 +98,8 @@
   <span class="sr-only">70% Complete</span>
 </div>
 </div>
+
+<br/>
 <p>JAVASCRIPT</p>
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -94,6 +107,8 @@
   <span class="sr-only">70% Complete</span>
 </div>
 </div>
+
+<br/>
 <p>HTML & CSS</p>
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -104,14 +119,14 @@
 </div>
 </div>
 <div class="b3">
-  <h1 class="text-center text-white">02 PORTFOLIO</h1>
-  <h2 class="text-center text-white ">MY LATEST WORK. SEE MORE</h2>
+  <h2 id="portfolio" class="text-center text-white">02 PORTFOLIO</h2>
+  <h3 class="text-center text-white ">MY LATEST WORK. SEE MORE</h3>
   <img src="http://www.notebook-fiyatlari.com/wp-content/uploads/macbook-laptop.jpg" alt="Apple">
   <img src="http://img.bfmtv.com/i/0/0/6e8/55dac23e80f7ca346655cbe269765.jpg" alt="Smartphone">
   <img src="https://s-media-cache-ak0.pinimg.com/originals/f8/dd/60/f8dd604f5aab7f22480f330325d68ec7.jpg" alt="watch">
 </div>
 <div class="b4">
-  <h1 class="text-center text-white">03 EXPERIENCE</h1>
+  <h2 id="experience" class="text-center text-white">03 EXPERIENCE</h2>
   <p class="text-center">2014-2016</p>
   <p class="text-center"><strong>HOP!</strong></p>
   <p class="text-center">Creative Design Lead</p>
@@ -153,30 +168,29 @@
   <div class="jerry col-lg-6 col-md-6 col-sm-6">
 <div class="holder">
   <form>
-    <h1 class="text-white"> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Contact </h1>
+    <h1 id="contact" class="text-white"> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Contact </h1>
     <div class="input-group">
       <div class="input-group-addon"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> </div>
-      <input type="text" class="form-control input-lg" placeholder="Your name">
+      <input type="text" class="form-control input-lg" placeholder="Your name" required>
     </div>
 
     <div class="input-group">
       <div class="input-group-addon"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> </div>
-      <input type="text" class="form-control input-lg" placeholder="Your email">
+      <input type="text" class="form-control input-lg" placeholder="Your email" required>
     </div>
 
     <div class="input-group">
       <div class="input-group-addon"> <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> </div>
-      <input type="text" class="form-control input-lg" placeholder="Subject">
+      <input type="text" class="form-control input-lg" placeholder="Subject" required>
     </div>
 
     <div class="input-group">
       <div class="input-group-addon"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </div>
-      <textarea  class="form-control input-lg" rows="6">Your comment</textarea>
+      <textarea  class="form-control input-lg" rows="6"></textarea>
     </div>
 
-    <a href="#">Submit</a>
+     <input class="submit" type="submit"  id="submit"  	value="submit">
   </form>
-  <a href="http://danicfilip.com/7-day-web-dev-challenge-codepen/" target="_blank" class="lien aboutlink">About the 7Day web dev challange</a>
 </div>
 </div>
 </div>

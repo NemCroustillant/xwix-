@@ -30,7 +30,7 @@
 .b4 {
   background-image:url("http://www.gilles-informatique.fr/img/slide/hebergement.jpg");
   background-attachment: fixed;
-  padding:200px;
+  padding:300px;
 }
 
 .b5 {
@@ -58,9 +58,20 @@ img {
 }
 
 .progress {
-margin-left : 350px;
-margin-right: 350px;
+/*margin-left : 350px;*/
+/*margin-right: 150px;*/
+width: 50vw;
+height: auto;
 }
+.wordpress{
+  display: flex;
+}
+
+.para {
+  margin-left: 200px;
+  margin-top:50px;
+}
+
 
 .paragraphe {
   background-color:#2D314F;
@@ -73,7 +84,7 @@ margin-right: 350px;
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top:900px;
+  top:750px;
 
 }
 
@@ -82,7 +93,7 @@ margin-right: 350px;
 }
 
 .robert {
-  color:black;
+  color: grey;
   margin-left:50px;
 }
 
@@ -99,7 +110,7 @@ h3 {
 margin-left: 300px;
 }
 
-form>a{
+.submit{
     text-align: center;
     display: block;
     margin: 1em auto;
@@ -144,6 +155,20 @@ form>a:hover{
   text-align: center;
   transition: 0.8s all;
 }
+
+.button {
+  background:none;
+   border:1px solid #00D646 ;
+   color: white;
+   padding: 14px 29px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 3px 2px;
+   cursor: pointer;
+}
+
 
 .aboutlink:hover{
   color: #2ecc71;
